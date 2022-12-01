@@ -1,0 +1,42 @@
+.fixed-navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 5;
+}
+
+#beware {
+  position:absolute;
+  background-color: rgba(0,0,0,0.5);
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  opacity: 1;
+  transition: opacity 2s;
+}
+
+#beware > .body {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  height: 200px;
+  margin-top: calc(80vh/2);
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#hire-us {
+  background-color: yellow;
+  font-weight: bold;
+  padding: 0.5rem;
+  text-align: center;
+  width: 140px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  z-index: 100;
+}
